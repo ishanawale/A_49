@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* College Header */
+.college-header {
+    background-color: white;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.college-logo {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.college-image {
+    width: 100%;
+    max-width: 850px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Headings */
+.section-title {
+    color: #0f64b9;
+    font-weight: bold;
+}
+
+.college-title {
+    color: #0f64b9;
+    font-weight: bold;
+}
+
+/* Cards */
+.custom-card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+}
+
+.custom-card:hover {
+    transform: translateY(-3px);
+    transition: 0.3s;
+}
+
+/* Footer */
+footer {
+    background-color: #0f64b9;
+    color: white;
+}
+
+/* Department list */
+.department-list li {
+    margin-bottom: 10px;
+}
+
+/* Contact information */
+.contact-info {
+    line-height: 2;
+}
+
+/* Responsive image */
+.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+
+    .college-logo {
+        width: 130px;
+        height: 130px;
+    }
+
+    .college-image {
+        height: 250px;
+    }
+
+    .college-header h1 {
+        font-size: 24px;
+    }
+
+    .college-header h4 {
+        font-size: 16px;
+    }
+}
